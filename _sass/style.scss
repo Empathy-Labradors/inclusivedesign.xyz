@@ -139,7 +139,7 @@ textarea {
     }
 
     a[href]:after {
-        content: " (" attr(href) ")";
+        content: " (" attr(data-short-url) ")";
     }
 
     abbr[title]:after {

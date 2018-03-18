@@ -1,0 +1,1 @@
+<a href="{{ site.data.short-urls[include.id]["url"] }}" data-short-url="{{ site.data.short-urls[include.id]["short-url"] }}">{{ site.data.short-urls[include.id]["link-text"] }}</a>
