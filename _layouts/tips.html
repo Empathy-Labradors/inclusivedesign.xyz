@@ -1,0 +1,16 @@
+{% include header.html tip=page.title %}
+
+<main id="content" tabindex="-1">
+    <article class="hentry">
+
+    	<div class="entry-content">
+        <h2 class="tip-why">Why do it</h2>
+        {{ page.why | markdownify }}
+
+        {{ content }}
+    	</div>
+
+    </article>
+</main>
+
+{% include footer.html %}

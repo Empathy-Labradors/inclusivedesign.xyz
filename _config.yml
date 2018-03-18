@@ -1,0 +1,26 @@
+title: Inclusive Design
+tagline: Tip and tricks for doing more inclusive design.
+
+permalink: pretty
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed
+
+collections:
+  tips:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: tips
+    values:
+      layout: tips
