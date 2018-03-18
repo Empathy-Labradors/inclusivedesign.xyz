@@ -1,0 +1,59 @@
+// icons for tip sections
+
+.tip-why,
+.tip-what,
+.tip-check,
+.tip-change {
+  &:before {
+    display: inline-block;
+    margin-right: 0.25em;
+  }
+}
+
+.tip-why:before {
+  content: "❤";
+}
+
+.tip-what:before {
+  content: "➜";
+}
+
+.tip-check:before {
+  content: "✔";
+}
+
+.tip-change:before {
+  content: "★";
+}
+
+// icons for tip typecast
+
+.tip-visual,
+.tip-cognitive,
+.tip-physical,
+.tip-network {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.tip-visual {
+  padding-right: 120px;
+  background-image: url(/img/thumbs/visual.jpg);
+}
+
+.tip-cognitive {
+  padding-right: 60px;
+  background-image: url(/img/thumbs/cognitive.jpg);
+}
+
+.tip-physical {
+  padding-right: 60px;
+  background-image: url(/img/thumbs/physical.jpg);
+}
+
+.tip-network {
+  padding-right: 40px;
+  background-image: url(/img/thumbs/network.jpg);
+  background-size: contain;
+}

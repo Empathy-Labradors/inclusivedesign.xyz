@@ -55,4 +55,8 @@
 </head>
 
 <body>
-    <h1><a href="/" rel="home">Inclusive Design{% if include.tip %} Tip: {{ include.tip }}{% endif %}</a></h1>
+    {% if include.tip %}
+    <h1><a href="/tips">Inclusive Design Tip</a> : {{ include.tip }}</a></h1>
+    {% else %}
+    <h1><a href="/" rel="home">Inclusive Design</a></h1>
+    {% endif %}
