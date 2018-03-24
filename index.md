@@ -3,7 +3,7 @@ layout: default
 title: Inclusive Design
 ---
 
-![](/img/logo.png)
+![](/img/logo.png){: .logo }
 
 ohai.
 

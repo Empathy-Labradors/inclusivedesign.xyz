@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.25;
-  font-size: 125%;
+  font-size: 150%;
 }
 
 .wf-active {
@@ -13,6 +13,7 @@ body {
 h1, h2, h3, h4 {
   margin-top: 0;
   font-weight: normal;
+  font-family: "rooney-web", serif;
   clear: both;
   &:target {
     &:before {
@@ -122,6 +123,10 @@ blockquote {
     }
 }
 
+h1 {
+margin-bottom: 0; 
+}
+
 h2, h3 {
   margin-bottom: 0.25em;
 }
@@ -152,6 +157,27 @@ ul, ol {
   padding: 0 0 0 1em;
   margin-left: 1em;
   margin-top: 0;
+}
+
+li {
+  margin-bottom: 1em;
+  > ul {
+    margin-top: 1em;
+  }
+}
+
+.tip-list {
+  li {
+    margin-bottom: 1em;
+  }
+  h3 {
+    font-size: 1em; // to match list numbers
+  }
+}
+
+.tip-why + p, // whys have one p
+.tip ul {
+    margin-bottom: 2em;
 }
 
 .entry-title,

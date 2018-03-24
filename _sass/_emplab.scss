@@ -57,3 +57,29 @@
   background-image: url(/img/thumbs/network.jpg);
   background-size: contain;
 }
+
+// colours and things
+
+h1 {
+  background-color: lighten($grey, 5%);
+  border-bottom: 5px solid darken($grey, 20%);
+  a {
+    text-decoration: none;
+    &:hover, &:active {
+      text-decoration: underline;
+    }
+  }
+}
+
+.tip {
+  .entry-content {
+    border: 5px solid darken($grey, 20%);
+    border-radius: 1em;
+    padding: 1em 2em;
+  }
+}
+
+body > footer {
+  border-top: 5px solid darken($grey, 20%);
+  background-color: lighten($grey, 5%);
+}

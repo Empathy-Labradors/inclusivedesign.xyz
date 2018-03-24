@@ -1,18 +1,15 @@
 {% include header.html %}
 
 <main id="content" tabindex="-1">
-    <article class="hentry">
-      {% if page.url != '/' %}
-    	<header>
-    		<h2 class="entry-title"><a href="{{ post.url }}" title="Permalink to {{ page.title }}" rel="bookmark">{{ page.title }}</a></h2>
-    	</header>
-      {% endif %}
+    {% if page.url != '/' %}
+  	<header>
+  		<h2 class="entry-title"><a href="{{ post.url }}" title="Permalink to {{ page.title }}" rel="bookmark">{{ page.title }}</a></h2>
+  	</header>
+    {% endif %}
 
-    	<div class="entry-content">
-    		{{ content }}
-    	</div>
-
-    </article>
+  	<div class="entry-content">
+  		{{ content }}
+  	</div>
 </main>
 
 {% include footer.html %}

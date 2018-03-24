@@ -31,7 +31,11 @@ footer {
   }
 }
 
-main,
+main {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
 section {
   margin-bottom: 4em;
 }
@@ -93,13 +97,31 @@ section {
 
 h1 {
   text-align: center;
-}
-
-body {
-  padding: 1em;
+  padding: 0.25em;
 }
 
 .img-center {
   display: block;
   margin: 0 auto 1em auto;
+}
+
+.tip {
+  .entry-content {
+    padding: 1em 2em;
+  }
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+body > footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.logo {
+  max-height: 50vh;
+  display: block;
+  margin: 0 auto;
 }
