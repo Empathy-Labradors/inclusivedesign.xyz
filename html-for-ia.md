@@ -10,7 +10,7 @@ The building blocks of HTML are great for helping with Information Architecture.
 Every web page needs these blocks at their top-level (the children elements of the `<body>`, if you want to get a bit technical about it).
 
 - A `<header>` element for stuff that applies to the whole site. This will probably include a logo, maybe search and navigation too.
-- A `<nav>` element (probably with a `ul` list inside). This needs a label: either in the code, or as a nearby heading.
+- A `<nav>` element (probably with a `ul` list inside). This needs a name: either in the code, or as a nearby heading.
 	- This element can (optionally) be inside the `<header>` element.
 - A `<main>` element for the main content of the page. That is: not the repeated header and footer of the page, not the sidebar, not the nav.
 - An `<aside>` element for stuff that's not the main content of the page. Traditionally: a sidebar.
